@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-image: url(/images/main.jpeg); */
+    /* background-size: 100%; */
+
+}
+.service_heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    /* background-color: rgba(36, 36, 36, 0.807); */
+    color: red;
+    font-style: italic;
+    text-align: center;
+
+}
+.parent_service{
+    width: 100%;
+}
+
+.child_service{
+    /* height: 25em; */
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child_service2{
+    /* height: 25em; */
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child_service_child{
+    height: 18em;
+    width: 34em;
+    background-color: black;
+    margin-left: 5px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.child_service_child img{
+    height: 100%;
+    width: 100%;
+}
+.child_service_child h2{
+    text-align: center;
+    color: red;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.child_service_child p{
+    text-align: justify;
+    color: white;
+    margin: 10px;
+    /* font-size: xx-large; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width:720px) {
+    .child_service{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .child_service2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column-reverse;
+    }
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.help{
+    /* background-color: aqua; */
+    /* height: 100vh; */
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.help_child{
+   width: 25em;
+   /* height: 30em; */
+   background-color: transparent;
+}
+.help_child img{
+   width: 25em;
+   height: 10em;
+   background-color: transparent;
+}
+.help_child h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px 10px;
+
+}
+.help_child h4 a{
+    color: black;
+    text-decoration: none;
+}
+.help_child h4 a:hover{
+    color: blue;
+}
+.help_child h4 i{
+    margin: 0px 10px;
+}
+.help_child center input{
+    border-radius: 10px;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}

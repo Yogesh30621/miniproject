@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.sign{
+    text-align: justify;
+    padding: 15px;
+}
+.sign_btn:hover{
+    background-color: lightgrey;
+}
+.main_sign{
+    height: 90vh;
+    width: 100%;
+    /* background-color:skyblue; */
+    background-image: url(/images/main.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_sign2{
+    /* height: 20em; */
+    width: 20em;
+    background-color: white;
+}
+.main_sign2 fieldset legend{
+    text-align: center;
+    font-size: xx-large;
+    color: blue;
+}
+.main_sign2 fieldset input{
+    width: 20em;
+    height: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}

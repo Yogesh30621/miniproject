@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Nav part  */
+
+.parent_nav{
+    width: 100%;
+    height: 5em;
+    background-color: rgba(36, 36, 36, 0.851);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_heading{
+    width: 8em;
+    font-size: xx-large;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    align-items: center;
+    color: rgba(255, 0, 0, 0.764);
+}
+.navbar ul{
+    display: flex;
+    margin: 10px;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0px 20px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: red;
+    font-size:xx-large;
+}
+@media screen and (max-width:720px) {
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        /* margin: 10px; */
+    }
+    .parent_nav{
+        width: 100%;
+        height: 13em;
+    }
+    .title{
+        text-align: center;
+    }
+    .service_child{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+     }
+     .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     }
+     .child_review{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+}
+
+/* introuction image  */
+
+.intro{
+    width: 100%;
+    height: 30em;
+    /* background-color: green; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/main.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.title{
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: transparent;
+    text-shadow: 25px 15px 4px gray;
+}
+
+ /* GYM services and name   */
+
+ .service{
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .service2{
+    width: 100%;
+    color: red;
+    font-size: 2em;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+ }
+ .service_image{
+    width: 100%;
+ }
+ .service_child{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+ }
+ .child{
+    height: 18em;
+    width: 15em;
+    background-color: white;
+    margin-left: 30px;
+ }
+ .child a img{
+    height: 15em;
+    width: 100%;
+    transition: all;
+    transition-duration: 2s;
+    transform-origin: center;
+ }
+ .child img:hover{
+    height: 16em;
+    width: 100%;
+ }
+ .child h5{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+ }
+
+ /* About End  */
+ .about{
+    /* height: 18em; */
+    width: 100%;
+    background-color: rgba(36, 36, 36, 0.851);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5em;
+ }
+ .about_child{
+    height:15em;
+    width: 18em;
+    margin-left: 6em;
+ }
+ .about_child h1{
+    /* text-align: center; */
+    color: red;
+ }
+ /* .about_child p{
+    text-align: center;
+ } */
+ .about_child p a{
+    color: white;
+    text-decoration: none;
+ }
+ .about_child p a:hover{
+    color: red;
+    text-decoration: underline;
+ }
+
+ .parent_review{
+   width: 100%;
+   /* height: 20em; */
+   /* background-color: aqua; */
+   display: flex;
+   justify-content: center;
+ }
+ .child_review{
+   /* height: 20em; */
+   width: 70em;
+   /* background-color: red; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .child_review_child{
+   height: 18em;
+   width: 20em;
+   margin: 15px;
+}
+.child_review_child img{
+   height: 100%;
+   width: 100%;
+   border: 1px solid black;
+   transition-property: all;
+   transition-duration: 2s;
+   transform-origin: center;
+ }
+ .child_review_child img:hover{
+   height: 19em;
+   width: 21em;
+ }
+ .review_heading{
+   color: red;
+   font-size: x-large;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+ }
+ 
