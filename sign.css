@@ -14,7 +14,7 @@
     height: 90vh;
     width: 100%;
     /* background-color:skyblue; */
-    background-image: url(/images/main.jpeg);
+    background-image: url(images/main.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
