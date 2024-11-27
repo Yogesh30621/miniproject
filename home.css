@@ -86,7 +86,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/images/main.jpeg);
+    background-image: url(images/main.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 
